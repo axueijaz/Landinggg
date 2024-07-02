@@ -1,0 +1,63 @@
+
+/* Item.css */
+body{
+    /* background-color: #f0f0f0; */
+font-family: 'Arial', sans-serif;
+}
+.item-section-wrapper {
+    margin-top: 5rem;
+  }
+  
+  .item-section-top {
+    text-align: center;
+    margin-bottom: 3rem;
+  }
+  
+  .item-section-bottom {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 2rem; /* Add gap between items */
+  }
+  
+  .item-card {
+    width: 250px;
+    background-color: white;
+    padding: 1.5rem;
+    margin: 1rem;
+    border-radius: 1rem;
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s; /* Add smooth transition for hover effect */
+  }
+  
+  .item-card:hover {
+    transform: translateY(-10px); /* Add hover effect */
+  }
+  
+  .item-image {
+    width: 100%;
+    height: auto;
+    border-radius: 0.5rem;
+    margin-bottom: 1rem; /* Add margin to separate image from text */
+  }
+  
+  .item-name {
+    font-size: 1.5rem;
+    margin: 1rem 0;
+    color: #333;
+  }
+  
+  .item-description {
+    font-size: 1rem;
+    color: #666;
+    margin-bottom: 1rem; /* Add margin to separate description from price */
+  }
+  
+  .item-price {
+    font-size: 1.2rem;
+    color: #fe9e0d;
+    margin-top: 1rem;
+  }
+  
